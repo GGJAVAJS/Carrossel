@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/nav.css">
+    <link rel="stylesheet" href="./estilos/register-user.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" name="" id="check">
+            <a href="#" class="logo">AppWare</a>
+            <!-- <div class="mobile-menu">
+                <div class="l1"></div>
+                <div class="l2"></div>
+                <div class="l3"></div>
+            </div> -->
+            <ul class="nav-list">
+                <li class="nav-link" style="--i: .6s"><a href="index.html">Início</a></li>
+                <li class="nav-link" style="--i: .6s"><a href="#">Sobre</a></li>
+                <li class="nav-link" style="--i: .6s">
+                    <a href="#">Conta<i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown">
+                        <ul>
+                            <li class="dropdown-link"><a href="login.html"><button id="login"><i 
+                                class="fas fa-arrow-right" id="icon-login"></i>Entrar</button></a>
+                            </li>
+
+                            <li class="dropdown-link"><a href="#" class="link-icon"><i class="fas fa-user"></i>Perfil</a></li><!--TENTAR PADRONIZAR ICONE E FUNCAO-->
+
+                            <li class="dropdown-link"><a href="#" class="link-icon"><i class="fas fa-question-circle"></i>Suporte</a></li>
+
+
+                            <li class="dropdown-link"><a href="pre-register.html" class="link-icon"><i class="far fa-id-card"></i>Cadastrar</a></li>
+
+                            <div class="arrow"></div>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-link" style="--i: .6s"><a href="#">Catálogo</a></li>
+            </ul>
+            <div class="hamburger-menu-container">
+                <div class="hamburger-menu">
+                    <div></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <form action="#" class="signin" autocomplete="off">
+            <h2>Cadastro de Usuário</h2>
+            <div class="data-user">
+                <div class="box-user">
+                    <input type="text" name="name" id="name" required>
+                    <label for="name">Nome</label>
+                </div>
+                <div class="box-user">
+                    <input type="text" name="user" id="user" required>
+                    <label for="user">Usuário</label>
+                </div>
+            </div>
+            <div class="data-user">
+                <div class="box-user">
+                    <input type="date" name="date" id="date" required>
+                    <label for="date" id="date">Data de Nascimento</label>
+                </div>
+                <div class="box-user">
+                    <input type="text" name="email" id="email" required>
+                    <label for="email">E-mail</label>
+                </div>
+            </div>
+            <div class="data-user">
+                <div class="box-user">
+                    <input type="password" name="senha" id="senha" required>
+                    <label for="senha">Senha</label>
+                </div>
+                <div class="box-user">
+                    <input type="password" name="repeat-senha" id="repeat-senha" required>
+                    <label for="repeat-senha">Confirmar senha</label>
+                </div>
+            </div>
+
+            <div class="sign-up">
+                <div class="check">
+                    <input type="checkbox" name="connected" id="connected">
+                    <span class="checkmark"></span>
+                    <label for="connected" class="checkmark">Li e concordo com os <a href="#">Termos de Uso</a> e <a
+                            href="#">Política de Privacidade</a></label>
+                </div>
+                <div>
+                    <input type="submit" value="Cadastrar" id="btn">
+                </div>
+                <div>
+                    <p id="sign-in">Já tem uma conta? <a href="login.html">Entrar agora</a> ou <a href="pre-register.html">Voltar</a></p>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

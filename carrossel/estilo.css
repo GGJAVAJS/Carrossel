@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+body {
+    background-color: #2A2F2E ;
+    height: 150vh;
+}
+.box {
+    display: flex;
+    height: 100%;
+}
+.slide-list {
+   display: flex; 
+}
+
+.slide-item {
+    flex-shrink: 0;
+    margin: 0 10px;
+    width: 50vw;
+}
+.slide-content{
+    border: 1px solid #fff;
+    position: relative;
+    border-radius: 10px;
+}
+/*TAMANHO DAS IMAGENS */
+.slide-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+.slide-description {
+    background: linear-gradient(to top,#000, transparent) ;
+    position: absolute;
+    padding: 30px;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    border-radius: 10px;
+}
+.slide-description h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    position: relative;
+    top: 16px;
+}
+.slide-description p {
+    font-family: 'Koulen', cursive;
+    font-size: 28px;
+}

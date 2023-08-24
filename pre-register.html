@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/nav.css">
+    <link rel="stylesheet" href="./estilos/pre-register.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <title>Pré-Cadastro</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" name="" id="check">
+            <a href="#" class="logo">AppWare</a>
+            <!-- <div class="mobile-menu">
+                <div class="l1"></div>
+                <div class="l2"></div>
+                <div class="l3"></div>
+            </div> -->
+            <ul class="nav-list">
+                <li class="nav-link" style="--i: .6s"><a href="index.html">Início</a></li>
+                <li class="nav-link" style="--i: .6s"><a href="#">Sobre</a></li>
+                <li class="nav-link" style="--i: .6s">
+                    <a href="#">Conta<i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown">
+                        <ul>
+                            <li class="dropdown-link"><a href="login.html"><button id="login"><i 
+                                class="fas fa-arrow-right" id="icon-login"></i>Entrar</button></a>
+                            </li>
+
+                            <li class="dropdown-link"><a href="#" class="link-icon"><i class="fas fa-user"></i>Perfil</a></li><!--TENTAR PADRONIZAR ICONE E FUNCAO-->
+
+                            <li class="dropdown-link"><a href="#" class="link-icon"><i class="fas fa-question-circle"></i>Suporte</a></li>
+
+
+                            <li class="dropdown-link"><a href="pre-register.html" class="link-icon"><i class="far fa-id-card"></i>Cadastrar</a></li>
+
+                            <div class="arrow"></div>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-link" style="--i: .6s"><a href="#">Catálogo</a></li>
+            </ul>
+            <div class="hamburger-menu-container">
+                <div class="hamburger-menu">
+                    <div></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="pre-form">
+            <h2>Pré-Cadastro</h2>
+            <div class="text-apresentation">
+                <p>Bem-vindo! Aqui você irá definir se irá se cadastrar como um usuário comum, ou em caso de desenvolvedor, utilize o modo Dev.</p>
+            </div>
+            <div class="switch-btn">
+                <div class="toggle">
+                    <!-- <span class="onoff">OFF</span> -->
+                    <input type="checkbox" id="foo">
+                    <label for="foo" onclick="switchToggle()"></label>
+                </div>
+            </div>
+            <div class="text-apresentation mode-dev-user">
+                <h3 id="mode" class="mode">Modo Usuário</h3>
+                <p id="text-mode">Nesse modo você poderá analisar a compatibilidade de todos os jogos.</p>
+            </div>
+            <div class="next-btn">
+                <a href="register-user.html" id="btnNextRegister"><input type="button" value="Próximo"></a>
+            </div>
+        </section>
+    </main>
+
+    <script type="text/javascript" src="scripts/alterate-text.js"></script>
+</body>
+</html>
